@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  font-family: Calibri;
+  line-height: 1.4rem;
+}
+
+/* header area */
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem auto 1rem;
+  width: 80vw;
+  max-width: 1200px;
+}
+
+.head-text {
+  width: 350px;
+}
+
+#header h1 {
+  color: rgb(162, 1, 154);
+  font-size: 2rem;
+  font-family: Sacramento;
+  line-height: 3rem;
+}
+#header a {
+  text-decoration: none;
+  color: brown;
+  font-weight: 700;
+  margin-left: 0.6rem;
+}
+
+#header a:hover {
+  color: rgb(232, 134, 55);
+}
+
+/* hero area */
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem auto 1rem;
+}
+
+#hero img {
+  display: flex;
+  justify-content: center;
+  width: 70vw;
+  max-width: 600px;
+  margin: 2rem auto 2rem;
+  border-radius: 1rem;
+}
+
+.home-info {
+  margin: 0 auto;
+  width: 80vw;
+  max-width: 900px;
+}
+
+.home-info p {
+  margin-bottom: 0.6rem;
+}
+
+.home-info h2 {
+  margin-bottom: 0.6rem;
+}
+
+.home-info li {
+  margin-left: 1.4rem;
+}
+
+.home-info li::marker {
+  list-style: square;
+  color: brown;
+}
+
+/* contact area */
+
+.form-container {
+  margin: 4rem auto;
+  width: 40vw;
+  max-width: 600px;
+}
+
+fieldset {
+  border: none;
+  box-shadow: 2px 2px 10px rgba(180, 180, 180, 0.12);
+  padding: 0.8rem 2rem;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container h2 {
+  text-align: center;
+  color: rebeccapurple;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0.4rem 1rem;
+}
+
+fieldset input,
+textarea {
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 0 0.4rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  padding-left: 0.1rem;
+}
+
+.submit-button {
+  padding: 0.4rem 2rem;
+  max-width: 200px;
+  margin: 1rem auto 1rem;
+  border: none;
+  background-color: rgb(115, 4, 88);
+  color: white;
+  border-radius: 0.8rem;
+}
